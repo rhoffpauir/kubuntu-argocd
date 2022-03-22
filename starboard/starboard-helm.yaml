@@ -15,7 +15,7 @@ spec:
         trivy:
           ignoreUnfixed: true
   destination:
-    server: <https://kubernetes.default.svc>
+    server: https://kubernetes.default.svc
     namespace: starboard-system
   syncPolicy:
     automated:
