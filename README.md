@@ -15,3 +15,5 @@ The tutorial shows how to
 * Define Resources for Starboard Exporter
 * Deploy Starboard exporter
 * See metrics in Prometheus
+
+kubectl apply -n argocd -f https://raw.githubusercontent.com/rhoffpauir/kubuntu-argocd/main/app/app.yaml
