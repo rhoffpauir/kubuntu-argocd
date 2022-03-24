@@ -16,7 +16,7 @@ spec:
           ignoreUnfixed: true
   destination:
     server: https://kubernetes.default.svc
-    namespace: starboard-system
+    namespace: cattle-logging-system
   syncPolicy:
     automated:
       prune: true
